@@ -18,6 +18,7 @@ public class mainController {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("userJSP", new User(new Long(1), "Test"));
         modelAndView.setViewName("index");
+        
         return modelAndView;
     }
 }
